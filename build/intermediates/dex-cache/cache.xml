@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/paulrogers/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/paulrogers/tmp/SimpleAIDL/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-ec15438689be10ed61277a2ae58e8cef3ae33713.jar" />
+    </item>
+    <item
+        jar="/Users/paulrogers/tmp/SimpleAIDL/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/paulrogers/tmp/SimpleAIDL/app/build/intermediates/pre-dexed/debug/classes-7a6c5e550ae088482a953aa103b984aeaa9bc53c.jar" />
+    </item>
+    <item
+        jar="/Users/paulrogers/tmp/SimpleAIDL/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/paulrogers/tmp/SimpleAIDL/app/build/intermediates/pre-dexed/debug/classes-31b85e39301fc343f2989b9241e91b07acf22517.jar" />
+    </item>
+    <item
+        jar="/Users/paulrogers/tmp/SimpleAIDL/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/paulrogers/tmp/SimpleAIDL/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-16e42642d2553ac7f3c3dc6e6be8eae30f7a7753.jar" />
+    </item>
+
+</items>
