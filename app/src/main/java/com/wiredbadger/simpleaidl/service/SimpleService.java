@@ -52,4 +52,10 @@ public class SimpleService extends Service {
         Log.d(TAG,"Unbinding");
         return super.onUnbind(intent);
     }
+
+    @Override
+    public void onDestroy() {
+        Log.d(TAG, "destroyed");
+        super.onDestroy();
+    }
 }
