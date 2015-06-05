@@ -57,7 +57,7 @@ public class MainActivity extends ActionBarActivity {
     // Reference to the remote interface
     private NameCall mNameCall;
 
-    private static final String WAITING_TAG = "waiting";
+
 
     // Create the connection to the service
     private ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -97,20 +97,6 @@ public class MainActivity extends ActionBarActivity {
         super.onDestroy();
     }
 
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        mWaiting = savedInstanceState.getBoolean(WAITING_TAG);
-        if( mWaiting ) {
-            mProgressbar.setVisibility(View.VISIBLE);
-        }
-    }
-
-    @Override
-    public void onSaveInstanceState(Bundle outState) {
-        outState.putBoolean(WAITING_TAG, mWaiting);
-        super.onSaveInstanceState(outState);
-    }
 
     /**
      * Binds to the NameCall service
@@ -121,6 +107,11 @@ public class MainActivity extends ActionBarActivity {
         this.bindService( intent, mServiceConnection, Context.BIND_AUTO_CREATE);
     }
 
+
+    /**
+     * Submit button callback
+     * @param v the submit button
+     */
     public void sendName(View v) {
         Log.d(TAG, "sending name");
 
